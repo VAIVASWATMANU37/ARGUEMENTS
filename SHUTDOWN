@@ -1,0 +1,12 @@
+import os
+SRT = input("DO YOU WANT TO SHUT DOWN THE LAPTOP???")
+if SRT == 'no':
+    exit()
+elif SRT == 'No':
+    exit()
+elif SRT == 'nO':
+    exit()
+elif SRT == 'NO':
+    exit()
+else:
+    os.system("shutdown /s /t 1")
